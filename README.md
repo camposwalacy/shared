@@ -6,9 +6,9 @@
 --- ---
 To solve the problem of ConsumerStore I chosed to built some structure in terms of project, like:
 ```
--- cargill-dev
-    README.md (this file)
-    -- src
+README.md (this file)
+-- dev
+   -- src
         test.py
         -- enums
             enums.py
@@ -117,7 +117,7 @@ co = store.ConsumerStore(pricing_rules=pricing_rules)
 Where the **pricing_rules** can be represented as **pricing_rule_1**.
 
 ### 1.3 - How to execute
-To execute the tests of the exercise goes to [/cargill-dev/src/](/cargill-dev/src/) and runs:
+To execute the tests of the exercise goes to [/dev/src/](/dev/src/) and runs:
 ```
 python test.py
 ```
